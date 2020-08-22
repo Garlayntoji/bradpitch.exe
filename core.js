@@ -37,12 +37,4 @@ client.on('message', message => {
 });
 
 
-client.on('guildMemberAdd', member => {
-	const channel = SystemChannel;
-	// Do nothing if the channel wasn't found on this server.
-	if(!channel) return;
-	channel.send(`Welcome to the server **`+ member.guild.name +`**, ${member}!`);
-
-});
-
 client.login(token);
