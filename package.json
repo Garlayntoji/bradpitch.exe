@@ -2,17 +2,21 @@
   "name": "brad-pitch",
   "version": "0.1.0",
   "description": "A Discord bot which will be able to do anything.",
-  "main": "index.js",
+  "main": "core.js",
   "scripts": {
-    "test": "node core.js"
+    "start": "node core.js"
   },
   "keywords": [
-    "discord"
+    "discord",
+    "heroku"
   ],
-  "author": "Garlayntoji",
+  "author": "Garlayn Toji",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.3.1",
     "fs": "0.0.1-security"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
