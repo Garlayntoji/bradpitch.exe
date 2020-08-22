@@ -1,0 +1,18 @@
+{
+  "name": "brad-pitch",
+  "version": "0.1.0",
+  "description": "A Discord bot which will be able to do anything.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node core.js"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Garlayntoji",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "fs": "0.0.1-security"
+  }
+}
