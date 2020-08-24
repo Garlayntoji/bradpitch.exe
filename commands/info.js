@@ -20,7 +20,7 @@ module.exports = {
 			
 			.addFields(
 					{ name: 'Programming language', value: 'Node.js' },
-					{name: 'Bot version', value: 'v0.1.1'},
+					{name: 'Bot version', value: 'v0.1.2'},
 					{ name: 'Hosting method', value: 'Raspberry Pi 3 Model B' },
 					{ name: 'Speaking languages', value: 'English only, multi-lingual will come later.'},
 					{ name: 'Development state:', value: 'Pre-alpha'},

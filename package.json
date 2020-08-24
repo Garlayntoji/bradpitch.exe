@@ -1,6 +1,6 @@
 {
   "name": "brad-pitch",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A Discord bot which will be able to do anything.",
   "main": "core.js",
   "scripts": {
