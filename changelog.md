@@ -1,6 +1,10 @@
 # Brad Pitch.exe Changelog
 
 ## 0.1.2
+### Known issues
+* Presence is not showing.
+
+### Changes/New Features
 * Changing all command files into async/await.
 * Added info command (use b!info).
 
