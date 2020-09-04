@@ -1,5 +1,12 @@
 # Brad Pitch.exe Changelog
 
+## 0.1.2a
+### Known issues
+* dankmemes.js is not working.
+
+### Changes/New Features
+* Fixed Presence: the bot should now show "Plays b!help".
+
 ## 0.1.2
 ### Known issues
 * Presence is not showing.

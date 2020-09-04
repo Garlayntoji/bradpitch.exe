@@ -15,7 +15,7 @@ for(const file of commandFiles) {
 
 client.on('ready', () => {
 	console.log('Ready to go!');
-	client.user.setPresence({ status: 'online', game: {name: 'b!help || Guilds: '+client.guilds.size+''}});	
+	client.user.setPresence({ status: 'online', activity: {name: 'b!help'}});	
 
 
 });
