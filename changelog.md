@@ -1,5 +1,14 @@
 # Brad Pitch.exe Changelog
 
+## 0.1.3
+### Known issues
+* No issues reported.
+
+### Changes/New Features
+* Reworked dankmemes command so it now works, with a huge help from Cryx.
+* Edited help command to show b!meme.
+* Edited info command to show 0.1.3 version.
+
 ## 0.1.2a
 ### Known issues
 * dankmemes.js is not working.

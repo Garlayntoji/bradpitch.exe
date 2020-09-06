@@ -17,7 +17,7 @@ module.exports = {
 				{ name: 'b!ping', value: 'Brad Pitch responds "Pong".' },
 				{ name: 'b!info', value: 'Shows the informations page.' },
 			)
-			.addField('Work in progress', 'Work in progress')
+			.addField('b!meme', 'Sends a meme from a random subreddit.')
 			.setTimestamp()
 			.setFooter('Brad Pitch.exe', 'https://media.discordapp.net/attachments/489384737752875009/651385255525351425/thumbs.jpg');
 

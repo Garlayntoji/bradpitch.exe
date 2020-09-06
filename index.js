@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const fs = require('fs');
+const randomPuppy = require('random-puppy');
 const {prefix} = require('./config.json');
 const {token} = require('./token.json');
 
@@ -19,10 +20,6 @@ client.on('ready', () => {
 
 
 });
-
-const cheerio = require('cheerio');
-
-const request = require('request');
 
 
 client.on('message', message => {
