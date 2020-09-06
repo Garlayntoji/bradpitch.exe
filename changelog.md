@@ -8,6 +8,7 @@
 * Reworked dankmemes command so it now works, with a huge help from Cryx.
 * Edited help command to show b!meme.
 * Edited info command to show 0.1.3 version.
+* Renamed file core.js to index.js.
 
 ## 0.1.2a
 ### Known issues
