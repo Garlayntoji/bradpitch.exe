@@ -1,8 +1,19 @@
 # Brad Pitch.exe Changelog
 
+## 0.1.3a
+### Known issues
+* No issues reported yet.
+
+### Changes/New Features
+* Fixed b!info command so it now works again.
+* Renamed dankmemes.js by meme.js
+* Removed r/wholesomememes from meme.js because their memes are not loaded on Discord.
+* Removed r/techsupportanimals from meme.js because their memes ain't funny.
+
 ## 0.1.3
 ### Known issues
-* No issues reported.
+* A bad connection on the bot size can occur a time-out error when summoning b!meme command and the bot will still be in the state "writing".
+* Info command does not work.
 
 ### Changes/New Features
 * Reworked dankmemes command so it now works, with a huge help from Cryx.

@@ -3,7 +3,7 @@ const discord = require('discord.js');
 module.exports = {
 	name: 'info',
 	description: 'Shows the bot\'s informations',
-	execute(client, message, args) {
+	execute(message, args) {
 		async function info() {
 					const infoEmbed = new discord.MessageEmbed()
 			.setColor('#c75a00')
@@ -23,7 +23,7 @@ module.exports = {
 					{name: 'Bot version', value: 'v0.1.3'},
 					{ name: 'Hosting method', value: 'Raspberry Pi 3 Model B' },
 					{ name: 'Speaking languages', value: 'English only, multi-lingual will come later.'},
-					{ name: 'Development state:', value: 'Pre-alpha'},
+					{ name: 'Development state:', value: 'Closed Pre-alpha'},
 
 				)
 
@@ -33,7 +33,7 @@ module.exports = {
 
 			.setFooter('Brad Pitch.exe', 'https://media.discordapp.net/attachments/489384737752875009/651385255525351425/thumbs.jpg');
 
-			await message.channel.send(infoEmbed);
+				await message.channel.send(infoEmbed);
 
 			console.log('Info command executed successfully.')
 		};

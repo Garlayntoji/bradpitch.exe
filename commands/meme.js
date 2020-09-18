@@ -16,9 +16,7 @@ module.exports = {
             "AnimeFunny",
             "dankmemes",
             "dankmeme",
-            "wholesomememes",
             "MemeEconomy",
-            "techsupportanimals",
             "meirl",
             "me_irl",
             "2meirl4meirl",
@@ -35,9 +33,10 @@ module.exports = {
                     attachment: url,
                     name: 'meme.png'
                 }]
-            }).then(() => message.channel.stopTyping());
+            }).then(() => message.channel.send('Here\'s your meme from '+subreddit+'!'));
+            message.channel.stopTyping();
             console.log('Successfully sent a meme!');
         }).catch(err => console.error(err));
-
+        message.channel.stopTyping();
     },
 }
