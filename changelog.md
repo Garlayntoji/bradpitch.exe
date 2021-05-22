@@ -1,5 +1,15 @@
 # Brad Pitch.exe Changelog
 
+## 1.0.0
+### Known issues
+* No issues reported yet.
+
+### Changes/New Features
+* Reorganized commands files in /commands/. Files are now separated in 3 subfolders: general, help, and sbg.
+* Created hi command. It has been created for the Selenite Blizzard Guild, a No Man's Sky in-game company. It returns a welcome message after a ticket opening (employees are supposed to send this command manually).
+* Created found command. Same reason as hi command. Returns a message indicating the employee has found the target POI, or at least something near to the request.
+* Created done command. Same reason as hi command. Returns a message indicating the ticket is done and will be closed.
+
 ## 0.1.3a
 ### Known issues
 * No issues reported yet.
