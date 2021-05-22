@@ -6,8 +6,8 @@ module.exports = {
 	name: 'help_sbg',
 	description: 'The SBG help command.',
 	execute(message, args) {
-		async function help() {
-				const helpEmbed = new Discord.MessageEmbed()
+		async function help_sbg() {
+				const help_sbgEmbed = new Discord.MessageEmbed()
 			.setColor('#1a29ca')
 			.setTitle('Help: Selenite Blizzard Guild')
 			.setDescription("Here's the SBG help page. Thank you for using Brad Pitch.")
@@ -19,7 +19,7 @@ module.exports = {
 			.setTimestamp()
 			.setFooter('Brad Pitch.exe', 'https://media.discordapp.net/attachments/489384737752875009/651385255525351425/thumbs.jpg');
 
-			await message.channel.send(helpEmbed);
+			await message.channel.send(help_sbgEmbed);
 
 			console.log('Help command executed successfully.');
 		};
