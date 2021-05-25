@@ -30,13 +30,19 @@ for(const file of sbgCommands) {
 }
 
 
-//Bot connection to Discord with connection success message in the console and set Presence
+//Bot connection to Discord with connection success message in the console and reload Presence every hour
 client.on('ready', () => {
 	console.log('Ready to go!');
-	client.user.setPresence({ status: 'online', activity: {name: 'b!help'}});	
-
-
+	setInterval(activity => {
+		client.user.setPresence({ status: 'online', activity: {name: 'b!help'}});
+		console.log('Presence reloaded.')
+	}, 3600000)	
 });
+
+//Initial set presence
+client.user.setPresence({ status: 'online', activity: {name: 'b!help'}});
+
+
 
 //Commands execution function
 client.on('message', message => {
@@ -53,6 +59,7 @@ client.on('message', message => {
 		message.reply("There was an issue executing that command, or this command doesn't exist!");
 	}
 });
+
 
 
 //Login function using the bot's token
