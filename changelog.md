@@ -1,5 +1,14 @@
 # Brad Pitch.exe Changelog
 
+## 1.0.1
+### Known issues
+* No issues reported yet
+
+### Changes/New Features
+
+* Slightly changed hi.js, found.js and done.js files in SBG section.
+* Slightly changed README.md.
+
 ## 1.0.0
 ### Known issues
 * No issues reported yet.

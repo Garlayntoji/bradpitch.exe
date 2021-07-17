@@ -11,10 +11,7 @@ module.exports = {
 			.setTitle('Your target POI has been found.')
 			.setDescription("You can prepare your Tainted Metal for the upcoming payment.")
 			.setThumbnail('https://static.wikia.nocookie.net/nomanssky_gamepedia/images/a/a1/GBS_Logo_Rework.png/revision/latest/scale-to-width-down/600?cb=20210303123857')
-			.addFields(
-				{ name: "Employee, please follow these steps:", value: "Send a screenshot of the found POI with glyphs and surface coordinates. 2 to 3 screenshots needed: Glyph address, deposit's specifications, surface coordinates."},
-				{ name: "Client, please follow these setps:", value: "Proceed to the found POI verification and accept the discovery or not."}
-			)
+			.setDescription("Please proceed to the found POI verification and accept the discovery or not.")
 			.setTimestamp()
 			.setFooter('Brad Pitch.exe', 'https://media.discordapp.net/attachments/489384737752875009/651385255525351425/thumbs.jpg');
 
