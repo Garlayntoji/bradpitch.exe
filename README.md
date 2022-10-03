@@ -1,4 +1,4 @@
-# Brad Pitch.exe: a Discord bot...
+# Brad Pitch.exe: a Discord bot.
 This readme file will obviously be edited in the future.
 
 To introduce myself, I'm Garlayn Toji (wow, surprising). I'm making this bot so it will be able to do kinda everything. Moderation isn't sure though.
